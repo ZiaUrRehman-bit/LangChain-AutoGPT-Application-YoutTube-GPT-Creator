@@ -7,7 +7,7 @@ from langchain.llms import OpenAI
 os.environ['OPENAI_API_KEY'] = apikey
 
 # Application Framework
-st.title('🦜️🔗 YouTube GPT Creator')
+st.title('🦜️🔗 LangChain Application (Like ChatGPT)')
 prompt = st.text_input('Plug in your prompt here')
 
 # Llms
